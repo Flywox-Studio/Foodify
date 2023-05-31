@@ -1,0 +1,41 @@
+section {
+  display: flex;
+  background-color: #e5e5e5;
+
+  justify-content: center;
+  align-items: center;
+}
+.formContainer {
+  height: 900px;
+  width: 65%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.food {
+  color: #f5761a;
+}
+
+.formText {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.mainForm {
+  box-sizing: border-box;
+  /* padding-right: 20px; */
+}
+.block {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+input {
+  width: 97%;
+  padding: 6px;
+  border-radius: 5px;
+  /* outline-color: #8899a6; */
+  border: 1px solid #8899a6;
+  /* outline-width: 1px; */
+}

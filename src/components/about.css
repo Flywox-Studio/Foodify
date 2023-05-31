@@ -8,22 +8,19 @@
 .aboutContent {
   display: flex;
   height: 950px;
-  width: 90%;
-  /* align-items: center; */
-  justify-content: center;
-  /* background-color: red; */
+  width: 80%;
+  justify-content: space-between;
 }
 
 .mainText {
   width: 50%;
   height: 300px;
-  margin-top: 350px;
+  margin-top: 300px;
 }
 .card {
   display: flex;
-  height: 300px;
-  margin: 70px;
-
+  width: 50%;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
