@@ -35,9 +35,7 @@ input {
   width: 97%;
   padding: 6px;
   border-radius: 5px;
-  /* outline-color: #8899a6; */
   border: 1px solid #8899a6;
-  /* outline-width: 1px; */
 }
 @media (max-width: 1700px) {
   .formText {
