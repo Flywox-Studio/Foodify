@@ -23,14 +23,10 @@
   .footerContainer {
     flex-direction: column;
     margin: 20px;
-    /* background-color: aquamarine; */
   }
 }
 @media (max-width: 730px) {
   .foodify {
-    /* height: auto;
-    flex-direction: column;
-    width: 100%; */
     margin-top: 20px;
   }
 }

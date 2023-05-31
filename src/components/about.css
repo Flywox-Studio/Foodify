@@ -52,9 +52,6 @@
     height: 90%;
   }
   .cardItem {
-    /* width: 200px; */
-    /* min-height: 200px; */
-    /* height: 40%; */
     margin: 5px;
   }
 }
@@ -98,8 +95,6 @@
     margin-top: 20%;
   }
   .cardItem {
-    /* height: 406px; */
-    /* min-width: 200px; */
     width: 100%;
     margin: 20px 0;
   }
