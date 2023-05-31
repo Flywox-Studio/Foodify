@@ -1,3 +1,44 @@
 .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fbf7f3;
+}
+
+.aboutContent {
+  display: flex;
+  height: 950px;
+  width: 90%;
+  /* align-items: center; */
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.mainText {
+  width: 50%;
+  height: 300px;
+  margin-top: 350px;
+}
+.card {
+  display: flex;
+  height: 300px;
+  margin: 70px;
+
+  flex-wrap: wrap;
+}
+
+.cardItem {
+  height: 406px;
+  width: 290px;
+  margin: 20px;
+}
+
+.cardItem:first-child {
+  background-color: #f4ecfc;
+}
+.cardItem:nth-child(even) {
+  background-color: #e9f7ec;
+}
+.cardItem:last-child {
+  background-color: #fbe5ee;
 }
