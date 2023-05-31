@@ -39,12 +39,12 @@ function Header() {
         </div>
         <div className="grid">
           <Grid container columnSpacing={2}>
-            <Grid item xl={6} lg={6} md={6}>
+            <Grid item xl={6} lg={6} md={6} sm={6} xs={6}>
               <div className="img1">
                 <img src="../assets/food.jpeg " alt="" />
               </div>
             </Grid>
-            <Grid item xl={6} lg={6} md={6}>
+            <Grid item xl={6} lg={6} md={6} sm={6} xs={6}>
               <div className="img2">
                 <img src="../assets/food2.jpg" alt="" />
               </div>

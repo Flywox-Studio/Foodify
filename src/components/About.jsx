@@ -7,10 +7,13 @@ import {
   Typography,
 } from '@mui/material'
 import './about.css'
+import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt'
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch'
+import LocalAtmIcon from '@mui/icons-material/LocalAtm'
 function About() {
   return (
     <Stack component="div" className="about">
-      <div className="aboutContent">
+      <div className="aboutContent  ">
         <Box className="mainText">
           <Typography
             sx={{ color: '#01796F', lineHeight: '49px' }}
@@ -34,35 +37,59 @@ function About() {
 
         <div className="card">
           <Card className="cardItem">
-            <CardMedia></CardMedia>
+            <CardMedia>
+              <SentimentSatisfiedAltIcon
+                style={{
+                  color: 'purple',
+                  fontSize: '50px',
+                  paddingTop: '20px',
+                  paddingLeft: '20px',
+                }}
+              />
+            </CardMedia>
             <CardContent>
               <Typography variant="h5">Ease of Use</Typography>
               <Typography>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 mollitia pariatur doloremque ipsum dolorum ducimus laudantium
-                alias quos distinctio veniam. Lorem ipsum dolor sit amet
               </Typography>
             </CardContent>
           </Card>
           <Card className="cardItem">
-            <CardMedia></CardMedia>
+            <CardMedia component="div">
+              <RocketLaunchIcon
+                style={{
+                  color: 'green',
+                  fontSize: '50px',
+                  paddingTop: '20px',
+                  paddingLeft: '20px',
+                }}
+              />
+            </CardMedia>
             <CardContent>
               <Typography variant="h5">Cheapest Price</Typography>
               <Typography>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 mollitia pariatur doloremque ipsum dolorum ducimus laudantium
-                alias quos distinctio veniam. Lorem ipsum dolor sit amet
               </Typography>
             </CardContent>
           </Card>
           <Card className="cardItem">
-            <CardMedia></CardMedia>
+            <CardMedia component="div">
+              <LocalAtmIcon
+                style={{
+                  color: 'red',
+                  fontSize: '50px',
+                  paddingTop: '20px',
+                  paddingLeft: '20px',
+                }}
+              />
+            </CardMedia>
             <CardContent>
               <Typography variant="h5">Different Payment Plan</Typography>
               <Typography>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 mollitia pariatur doloremque ipsum dolorum ducimus laudantium
-                alias quos distinctio veniam. Lorem ipsum dolor sit amet
               </Typography>
             </CardContent>
           </Card>

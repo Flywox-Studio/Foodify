@@ -43,3 +43,39 @@
   border: 6px solid #f5761a;
   border-radius: 0px 0px 90px 90px;
 }
+
+@media (max-width: 900px) {
+  .headerContainer {
+    height: auto;
+  }
+  .headerContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card {
+    width: 80%;
+  }
+  .grid {
+    width: 70%;
+    margin-top: 30px;
+  }
+  .img1 img {
+    min-height: 370px;
+
+    min-width: 50%;
+    max-width: 90%;
+    border: 6px solid #f5761a;
+    object-fit: cover;
+    border-radius: 90px 90px 0px 0px;
+  }
+  .img2 img {
+    min-height: 370px;
+    min-width: 50%;
+    max-width: 90%;
+
+    margin-top: 70px;
+    border: 6px solid #f5761a;
+    border-radius: 0px 0px 90px 90px;
+  }
+}

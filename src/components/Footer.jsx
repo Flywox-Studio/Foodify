@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footerContainer">
-        <Typography variant="h5">
+        <Typography variant="h5" component="div" className="foodify">
           Food<span style={{ color: '#f5761a' }}>ify</span>
         </Typography>
         <div>
